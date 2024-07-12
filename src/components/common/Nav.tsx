@@ -6,9 +6,9 @@ export default function Nav() {
              <div className="flex py-4 items-center justify-between">
         <a href="/" className="font-bold text-4xl">LOGO</a>
                 <div className="flex gap-8">
-                    <Link href="/"><button className="py-4 px-6 border-white border-2">HOME</button></Link>
-                    <Link href="./about"> <button className="py-4 px-6 border-white border-2">ABOUT</button></Link>
-                    <Link href="./contact"><button className="py-4 px-6 border-white border-2">CONTACT</button></Link>
+                    <Link href="/" className="py-4 px-6 border-white border-2">HOME</Link>
+                    <Link href="./about" className="py-4 px-6 border-white border-2">ABOUT</Link>
+                    <Link href="./contact"className="py-4 px-6 border-white border-2">CONTACT</Link>
                 </div>
                     </div>
         </nav>
